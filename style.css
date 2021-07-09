@@ -1,0 +1,44 @@
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+    
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+}
+
+.btn-erase{
+    margin-right: 50px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+
+.btn-size{
+    margin-bottom: 15px;
+}
+
+
+
+.div-hijos{
+    border: 1px solid black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+
